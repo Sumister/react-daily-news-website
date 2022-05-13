@@ -11,13 +11,13 @@ import React from 'react'
                             display: 'flex',
                             justifyContent: 'flex-end',
                             position: 'absolute',
-                            right: 0
+                            right: 0,
                         }
                     }>
 
-                <span className="badge rounded-pill bg-danger">{source}</span>
+                <span className="badge bg-danger">{source}</span>
                     </div>
-                    <img src={!imageUrl?"https://englishtribuneimages.blob.core.windows.net/gallary-content/2021/10/2021_10$largeimg_1103501819.jpg":imageUrl} className="card-img-top" alt="..."/>
+                    <img src={!imageUrl?"https://www.electrosc.in/wp-content/uploads/2021/01/no-image-available.png":imageUrl} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{description}</p>

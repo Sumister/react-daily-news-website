@@ -25,7 +25,7 @@ const App = () => {
           <Route exact path="/general"><News setProgress={setProgress} apiKey={apiKey}  key="general" pageSize={pageSize} country="in" category="general"/></Route>
           <Route exact path="/health"><News setProgress={setProgress} apiKey={apiKey}  key="health" pageSize={pageSize} country="in" category="health"/></Route>
           <Route exact path="/science"><News setProgress={setProgress} apiKey={apiKey}  key="science" pageSize={pageSize} country="in" category="science"/></Route>
-          <Route exact path="/sports"><News setProgress={setProgress} apiKey={apiKey}  key="sports" pageSize={pageSize} country="in" category="sportsl"/></Route>
+          <Route exact path="/sports"><News setProgress={setProgress} apiKey={apiKey}  key="sports" pageSize={pageSize} country="in" category="sports"/></Route>
           <Route exact path="/technology"><News setProgress={setProgress} apiKey={apiKey}  key="technology" pageSize={pageSize} country="in" category="technology"/></Route>
         </Switch>
         </Router>
