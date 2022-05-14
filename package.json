@@ -1,10 +1,10 @@
 {
   "name": "newsapp",
-  "homepage": "https://Sumister.github.io/React_NewsWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.1.2",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-infinite-scroll-component": "^6.1.0",
@@ -14,8 +14,6 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
