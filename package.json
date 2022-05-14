@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Sumister.github.io/React-News-App",
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +14,6 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
